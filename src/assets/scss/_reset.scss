@@ -1,0 +1,119 @@
+*,html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,a{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+:root {
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 62.5%;   /* 1rem = 10px => facile à calculer !! */
+}
+
+html,body{
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $dark;
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+h1{
+    color: $text-white;
+    font-size: 4.5rem;
+    text-shadow: $text-shadow;
+    text-align: center;
+}
+
+h2{
+    color: $dark;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 7rem;
+    padding: 5rem 0;
+    margin: 8rem 0 6rem 0;
+    text-align: center;
+    text-shadow: 2px 2px 2px $text-white;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+h6{
+    font-size: 1.3rem;
+}
+
+p{
+    font-family: 'Arial', sans-serif;
+    margin: 1rem 0;
+    color: $dark;
+    font-size: 1.2rem;
+}
+
+a{
+    font-size: 1.4rem;
+    color: $dark;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+ul{
+    list-style:none;
+}
+
+button{
+    cursor: pointer;
+}
+
+button,input,select,textarea{
+    margin:0;
+}
+
+*,*::before,*::after{
+    box-sizing:inherit;
+}
+
+img,video{
+    height: auto;
+    max-width: 100%;
+}
+
+iframe{
+    border:0;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+td,th{
+    padding:0;
+}
+
+td:not([align]),th:not([align]){
+    text-align:left;
+}
+
+::placeholder {
+    color: $secondary-text;
+    font-style: italic;
+}
+
+.container{
+    margin: auto;
+}

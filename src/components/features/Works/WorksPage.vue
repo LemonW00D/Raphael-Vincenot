@@ -1,0 +1,166 @@
+<template>
+  <div
+    class="container d-flex flex-row flex-wrap justify-content-between align-items-center py-5"
+  >
+    <!-- Colossus -->
+    <router-link
+      to="/works/colossus"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img src="../../../assets/img/colossus/Boxer.jpg" alt="Colossus" />
+        <h3>Colossus</h3>
+      </div>
+    </router-link>
+
+    <!-- Hats -->
+    <router-link
+      to="/works/hats"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img src="../../../assets/img/hats/bigwhitehands.jpg" alt="Hats" />
+        <h3>Hats</h3>
+      </div>
+    </router-link>
+
+    <!-- Odyssey -->
+    <router-link
+      to="/works/odyssey"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img src="../../../assets/img/odyssey/Giants.jpg" alt="Odyssey" />
+        <h3>Odyssey</h3>
+      </div>
+    </router-link>
+
+    <!-- The last day of Maria Molle -->
+    <router-link
+      to="/works/maria-molle"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img
+          src="../../../assets/img/the_last_day_of_maria_molle/Bluesmoke.jpg"
+          alt="Maria Molle"
+        />
+        <h3>The last day of Maria Molle</h3>
+      </div>
+    </router-link>
+
+    <!-- Few objects composition -->
+    <router-link
+      to="/works/few-objects-composition"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img
+          src="../../../assets/img/few_objects_composition/FO.jpg"
+          alt="Few objects composition"
+        />
+        <h3>Few objects composition</h3>
+      </div>
+    </router-link>
+
+    <!-- Reserve -->
+    <router-link
+      to="/works/reserve"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img src="../../../assets/img/reserve/backstage.jpg" alt="Reserve" />
+        <h3>Reserve</h3>
+      </div>
+    </router-link>
+
+    <!-- Some skeleton variation -->
+    <router-link
+      to="/works/some-skeleton-variation"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img
+          src="../../../assets/img/some_skeleton_variation/greeneye.jpg"
+          alt="Some skeleton variation"
+        />
+        <h3>Some skeleton variation</h3>
+      </div>
+    </router-link>
+
+    <!-- Punch and crack -->
+    <router-link
+      to="/works/punch-and-crack"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img
+          src="../../../assets/img/punch_and_crack/nocturnestreet.jpg"
+          alt="Punch and crack"
+        />
+        <h3>Punch and crack <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+  </div>
+</template>
+
+<script>
+import { BBadge } from "bootstrap-vue";
+
+export default {
+  components: {
+    BBadge
+  }
+};
+</script>
+
+<style lang="scss">
+@import "../../../../src/assets/scss/style.main.scss";
+
+.product-container {
+  margin-top: 2rem;
+  min-height: 200px;
+  height: auto;
+  min-width: 270px;
+  max-width: 300px;
+  padding: 0;
+}
+
+.image-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 150px;
+    cursor: pointer;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+
+  &:hover {
+    filter: grayscale(1);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@include md {
+  .product-container {
+    margin: auto;
+  }
+}
+</style>
