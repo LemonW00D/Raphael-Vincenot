@@ -1,7 +1,6 @@
 <template>
     <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">Colossus</h3></a>
-        <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
+        <div class="container d-flex flex-row flex-wrap justify-content-around rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
                     :index="index"
@@ -39,7 +38,7 @@ export default {
     },
     reloadPage(){
       window.location.reload()
-    }
+    },
   },
   data: function () {
     return {
@@ -48,7 +47,7 @@ export default {
           title: 'Boxer',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>1/8</p>`,
           src: require("../../../../../assets/img/colossus/Boxer.jpg"),
@@ -57,7 +56,7 @@ export default {
           title: 'Cyclops',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>2/8</p>`,
           src: require("../../../../../assets/img/colossus/Cyclops.jpg"),
@@ -66,7 +65,7 @@ export default {
           title: 'Dancer',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>3/8</p>`,
           src: require("../../../../../assets/img/colossus/Dancer.jpg"),
@@ -75,7 +74,7 @@ export default {
           title: 'Raining',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>4/8</p>`,
           src: require("../../../../../assets/img/colossus/Raining.jpg"),
@@ -84,7 +83,7 @@ export default {
           title: 'Red Hat',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>5/8</p>`,
           src: require("../../../../../assets/img/colossus/Redhat.jpg"),
@@ -93,7 +92,7 @@ export default {
           title: 'Starter',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>6/8</p>`,
           src: require("../../../../../assets/img/colossus/Starter.jpg"),
@@ -102,7 +101,7 @@ export default {
           title: 'Stonehead',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>7/8</p>`,
           src: require("../../../../../assets/img/colossus/Stonehead.jpg"),
@@ -111,7 +110,7 @@ export default {
           title: 'Hallucinating',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 75cm</p>
             <br>
             <p>8/8</p>`,
           src: require("../../../../../assets/img/colossus/Hallucinating.jpg"),
@@ -151,27 +150,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
 
 p{
     font-size: 1.2rem;
 }
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover{
-      cursor: pointer;
-  }
-}
+
 .images-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,6 +167,7 @@ p{
 .cool-lightbox{
     top: 13rem;
 }
+
 .rawmod{
   margin: 0 2rem;
 }
@@ -192,10 +178,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 150px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -209,6 +196,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

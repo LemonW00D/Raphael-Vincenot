@@ -220,6 +220,7 @@
     margin-right: 2px;
     margin-bottom: 2px;
     background-color: white;
+    overflow-y: scroll;
 }
 
 @media(min-width:767px) {
@@ -311,7 +312,7 @@
 }
 
 .cool-lightbox.cool-lightbox--is-swipping {
-    cursor: default;
+    cursor: grabbing;
 }
 
 .cool-lightbox.cool-lightbox--is-swipping iframe {
@@ -328,11 +329,11 @@
 }
 
 .cool-lightbox.cool-lightbox--can-zoom .cool-lightbox__slide img {
-    cursor: default;
+    cursor: zoom-in;
 }
 
 .cool-lightbox.cool-lightbox--is-zooming .cool-lightbox__slide img {
-    cursor: default;
+    cursor: zoom-out;
 }
 
 .cool-lightbox.cool-lightbox--is-zooming .cool-lightbox-caption {
@@ -640,6 +641,12 @@
         width: 44px;
         height: 44px;
         padding: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .cool-lightbox-toolbar .cool-lightbox-toolbar__btn {
+        display: none;
     }
 }
 

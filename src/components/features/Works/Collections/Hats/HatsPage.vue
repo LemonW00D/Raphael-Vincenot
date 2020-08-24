@@ -1,6 +1,5 @@
 <template>
-    <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">Hats</h3></a>
+    <div id="modal-temp">
         <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
@@ -48,7 +47,7 @@ export default {
           title: 'Big White Hands',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>1/12</p>`,
           src: require("../../../../../assets/img/hats/bigwhitehands.jpg"),
@@ -57,7 +56,7 @@ export default {
           title: 'Blue Beanie',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>2/12</p>`,
           src: require("../../../../../assets/img/hats/bluebeanie.jpg"),
@@ -66,7 +65,7 @@ export default {
           title: 'White Hat',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>3/12</p>`,
           src: require("../../../../../assets/img/hats/whitehat.jpg"),
@@ -75,7 +74,7 @@ export default {
           title: 'Coal Helmet',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>4/12</p>`,
           src: require("../../../../../assets/img/hats/coalhelmet.jpg"),
@@ -84,7 +83,7 @@ export default {
           title: 'Colional Hat',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>5/12</p>`,
           src: require("../../../../../assets/img/hats/colionalhat.jpg"),
@@ -93,7 +92,7 @@ export default {
           title: 'Dog Pink Hut',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>6/12</p>`,
           src: require("../../../../../assets/img/hats/dogpinkhut.jpg"),
@@ -102,7 +101,7 @@ export default {
           title: 'Driver',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>7/12</p>`,
           src: require("../../../../../assets/img/hats/driver.jpg"),
@@ -111,7 +110,7 @@ export default {
           title: 'Old Hat',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>8/12</p>`,
           src: require("../../../../../assets/img/hats/oldhat.jpg"),
@@ -120,7 +119,7 @@ export default {
           title: 'Pink And Blue',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>9/12</p>`,
           src: require("../../../../../assets/img/hats/pinkandblue.jpg"),
@@ -129,7 +128,7 @@ export default {
           title: 'Tropical Surveyor',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>10/12</p>`,
           src: require("../../../../../assets/img/hats/tropicalsurveyor.jpg"),
@@ -138,7 +137,7 @@ export default {
           title: 'Up And Down',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>11/12</p>`,
           src: require("../../../../../assets/img/hats/upanddown.jpg"),
@@ -147,7 +146,7 @@ export default {
           title: 'White Hand',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>12/12</p>`,
           src: require("../../../../../assets/img/hats/whitehand.jpg"),
@@ -187,27 +186,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
 
 p{
     font-size: 1.2rem;
 }
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover{
-      cursor: pointer;
-  }
-}
+
 .images-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -218,6 +203,7 @@ p{
 .cool-lightbox{
     top: 13rem;
 }
+
 .rawmod{
   margin: 0 2rem;
 }
@@ -228,10 +214,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 150px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -245,6 +232,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

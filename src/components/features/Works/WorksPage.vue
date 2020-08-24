@@ -75,7 +75,7 @@
     >
       <div class="image-collection">
         <!-- ici mettre un on click pour aller sur la page de la collection -->
-        <img src="../../../assets/img/reserve/backstage.jpg" alt="Reserve" />
+        <img src="../../../assets/img/reserve/cactus.jpg" alt="Reserve" />
         <h3>Reserve</h3>
       </div>
     </router-link>
@@ -148,6 +148,7 @@ export default {
   h3 {
     text-align: center;
     font-size: 1.4rem;
+    font-weight: 500;
     letter-spacing: 1px;
   }
 

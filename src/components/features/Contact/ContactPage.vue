@@ -14,10 +14,10 @@
       <div class="d-flex flex-column item">
         <h3><i class="fas fa-user-plus mr-2"></i> Networks</h3>
         <div class="d-flex flex-raw justify-content-center">
-          <a href="https://www.facebook.com/raphael.vincenot"
+          <a href="https://www.facebook.com/raphael.vincenot" target="_blank" rel="external nofollow noreferrer noopener"
             ><i class="fab fa-facebook mx-3"></i
           ></a>
-          <a href="https://www.instagram.com/raphael_vincenot/"
+          <a href="https://www.instagram.com/raphael_vincenot/" target="_blank" rel="external nofollow noreferrer noopener"
             ><i class="fab fa-instagram-square mx-3"></i
           ></a>
         </div>
@@ -26,11 +26,11 @@
     <div class="my-5 d-flex flex-column align-items-center">
       <h3><i class="fas fa-map-marked-alt"></i> Studio</h3>
       <a
-        href="https://www.google.fr/maps/dir//75+Avenue+Foch,+75116+Paris/@48.8561616,2.3057654,13z/data=!4m17!1m7!3m6!1s0x47e66ff622a9ac65:0xa96848772163f13c!2s75+Avenue+Foch,+75116+Paris!3b1!8m2!3d48.8713742!4d2.2789494!4m8!1m0!1m5!1m1!1s0x47e66ff622a9ac65:0xa96848772163f13c!2m2!1d2.2789494!2d48.8713742!3e1"
+        href="https://www.google.com/maps/place/1T+Rue+Pierre+et+Marie+Curie,+94200+Ivry-sur-Seine/@48.8146269,2.3601076,13.67z/data=!4m5!3m4!1s0x47e67232cdc6694b:0x5deffdbb0c584cd0!8m2!3d48.8156887!4d2.376717"
         target="_blank"
         rel="external nofollow noreferrer noopener"
-        >75 avenue Foch <br />
-        75116 PARIS <br />
+        >1 Ter rue Pierre et Marie Curie <br />
+        94200 IVRY-SUR-SEINE <br />
         FRANCE</a
       >
       <hr />
@@ -42,7 +42,7 @@
         class="d-block"
       />
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d59383.073422315945!2d2.3026782906196903!3d48.86992016345792!3m2!1i1024!2i768!4f13.1!4m8!3e1!4m0!4m5!1s0x47e66ff622a9ac65%3A0xa96848772163f13c!2s75%20Avenue%20Foch%2C%2075116%20Paris!3m2!1d48.8713742!2d2.2789493999999997!5e0!3m2!1sfr!2sfr!4v1597767148657!5m2!1sfr!2sfr"
+        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d70648.9188749323!2d2.348742040832145!3d48.84855782759314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e1!4m0!4m5!1s0x47e67232cdc6694b%3A0x5deffdbb0c584cd0!2s1T%20Rue%20Pierre%20et%20Marie%20Curie%2C%2094200%20Ivry-sur-Seine!3m2!1d48.815688699999995!2d2.3767169999999997!5e0!3m2!1sfr!2sfr!4v1598290928258!5m2!1sfr!2sfr"
         width="350"
         height="375"
         frameborder="0"

@@ -1,6 +1,5 @@
 <template>
-    <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">Odyssey</h3></a>
+    <div id="modal-temp">
         <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
@@ -48,7 +47,7 @@ export default {
           title: 'Giants',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>3x   70cm x 50cm</p>
             <br>
             <p>1/3</p>`,
           src: require("../../../../../assets/img/odyssey/Giants.jpg"),
@@ -57,7 +56,7 @@ export default {
           title: 'Red Procession',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>3x   70cm x 50cm</p>
             <br>
             <p>2/3</p>`,
           src: require("../../../../../assets/img/odyssey/Redprocession.jpg"),
@@ -66,7 +65,7 @@ export default {
           title: 'Trojan Trees',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>3x   70cm x 50cm</p>
             <br>
             <p>3/3</p>`,
           src: require("../../../../../assets/img/odyssey/Trojantrees.jpg"),
@@ -106,14 +105,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
+
 p{
     font-size: 1.2rem;
 }
@@ -123,14 +115,6 @@ p{
   &:hover{
       cursor: pointer;
   }
-}
-.images-wrapper {
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 200px;
-  width: auto;
 }
 
 .cool-lightbox{
@@ -146,10 +130,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 250px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -163,6 +148,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

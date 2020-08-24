@@ -1,6 +1,5 @@
 <template>
-    <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">Punch And Crack</h3></a>
+    <div id="modal-temp">
         <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
@@ -48,7 +47,7 @@ export default {
           title: 'Nocturne Street',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>1/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/nocturnestreet.jpg"),
@@ -57,7 +56,7 @@ export default {
           title: 'Punch',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>2/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/punch.jpg"),
@@ -75,7 +74,7 @@ export default {
           title: 'Blue Slap',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>4/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/blueslap.jpg"),
@@ -84,7 +83,7 @@ export default {
           title: 'Crack',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>5/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/crack.jpg"),
@@ -93,7 +92,7 @@ export default {
           title: 'Hat Slap',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>6/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/hatslap.jpg"),
@@ -102,7 +101,7 @@ export default {
           title: 'Rebound',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>7/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/rebound.jpg"),
@@ -111,7 +110,7 @@ export default {
           title: 'Watermelonhat',
           description: `
             <p>Pastel sur papier</p>
-            <p>70cm x 60cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>8/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/watermelonhat.jpg"),
@@ -151,27 +150,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
 
 p{
     font-size: 1.2rem;
 }
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover{
-      cursor: pointer;
-  }
-}
+
 .images-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,6 +167,7 @@ p{
 .cool-lightbox{
     top: 13rem;
 }
+
 .rawmod{
   margin: 0 2rem;
 }
@@ -192,10 +178,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 150px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -209,6 +196,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

@@ -1,6 +1,5 @@
 <template>
-    <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">The last day of Maria Molle</h3></a>
+    <div id="modal-temp">
         <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
@@ -48,7 +47,7 @@ export default {
           title: 'Blue Smoke',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>1/7</p>`,
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Bluesmoke.jpg"),
@@ -57,7 +56,7 @@ export default {
           title: 'Conversation And Comet',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>2/7</p>`,
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationandcomet.jpg"),
@@ -66,46 +65,46 @@ export default {
           title: 'Conversation Blue Sky',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>3/7</p>`,
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationbluesky.jpg"),
         },
         {
+          title: 'Conversation With Grey Hut',
+          description: `
+            <p>Pastel sur papier</p>
+            <p>110cm x 72cm</p>
+            <br>
+            <p>4/7</p>`,
+          src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationwithgreyhut.jpg"),
+        },
+        {
           title: 'Conversation With Violet Hut',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
-            <p>4/7</p>`,
+            <p>5/7</p>`,
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationwithviolethut.jpg"),
         },
         {
           title: 'Free Lula',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
-            <p>5/7</p>`,
+            <p>6/7</p>`,
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/FreeLula.jpg"),
         },
         {
-          title: 'Skeleton And Howl',
+          title: 'Howl',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
-            <br>
-            <p>6/7</p>`,
-          src: require("../../../../../assets/img/the_last_day_of_maria_molle/Howl.jpg"),
-        },
-        {
-          title: 'The Last Day Of Maria Molle',
-          description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>7/7</p>`,
-          src: require("../../../../../assets/img/the_last_day_of_maria_molle/LastdayofMM.jpg"),
+          src: require("../../../../../assets/img/the_last_day_of_maria_molle/Howl.jpg"),
         },
       ],
       index: null
@@ -142,27 +141,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
 
 p{
     font-size: 1.2rem;
 }
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover{
-      cursor: pointer;
-  }
-}
+
 .images-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -173,6 +158,7 @@ p{
 .cool-lightbox{
     top: 13rem;
 }
+
 .rawmod{
   margin: 0 2rem;
 }
@@ -183,10 +169,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 150px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -200,6 +187,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

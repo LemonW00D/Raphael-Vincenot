@@ -1,6 +1,5 @@
 <template>
     <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">Reserve</h3></a>
         <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
@@ -45,58 +44,58 @@ export default {
     return {
       items: [
         {
-          title: 'Backstage',
-          description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
-            <br>
-            <p>1/6</p>`,
-          src: require("../../../../../assets/img/reserve/backstage.jpg"),
-        },
-        {
           title: 'Cactus',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
-            <p>2/6</p>`,
+            <p>1/6</p>`,
           src: require("../../../../../assets/img/reserve/cactus.jpg"),
         },
         {
           title: 'Sun And Hand',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
-            <p>3/6</p>`,
+            <p>2/6</p>`,
           src: require("../../../../../assets/img/reserve/hand.jpg"),
         },
         {
           title: 'Broken Hut',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
-            <p>4/6</p>`,
+            <p>3/6</p>`,
           src: require("../../../../../assets/img/reserve/hut.jpg"),
         },
         {
           title: 'Insect',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
-            <p>5/6</p>`,
+            <p>4/6</p>`,
           src: require("../../../../../assets/img/reserve/insect.jpg"),
         },
         {
           title: 'Japonese T-Shirt',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
+            <br>
+            <p>5/6</p>`,
+          src: require("../../../../../assets/img/reserve/japonesetshirt.jpg"),
+        },
+        {
+          title: 'Two Huts',
+          description: `
+            <p>Pastel sur papier</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>6/6</p>`,
-          src: require("../../../../../assets/img/reserve/japonesetshirt.jpg"),
+          src: require("../../../../../assets/img/reserve/twohut.jpg"),
         },
       ],
       index: null
@@ -133,27 +132,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
 
 p{
     font-size: 1.2rem;
 }
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover{
-      cursor: pointer;
-  }
-}
+
 .images-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,6 +149,7 @@ p{
 .cool-lightbox{
     top: 13rem;
 }
+
 .rawmod{
   margin: 0 2rem;
 }
@@ -174,10 +160,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 150px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -191,6 +178,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

@@ -61,6 +61,7 @@ export default {
 nav {
   padding: 1.5rem 2rem;
   background: white;
+  z-index: 999999;
 }
 
 li {

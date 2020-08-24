@@ -1,6 +1,5 @@
 <template>
     <div id="modal-temp">        
-        <a @click="reloadPage"><h3 class="title-collection">Few Objects Composition</h3></a>
         <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
                 <CoolLightBox class="image-collection"
                     :items="items"
@@ -48,7 +47,7 @@ export default {
           title: 'Few Objects Composition',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>1/5</p>`,
           src: require("../../../../../assets/img/few_objects_composition/FO.jpg"),
@@ -57,37 +56,37 @@ export default {
           title: 'Few Objects Composition#2',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>2/5</p>`,
-          src: require("../../../../../assets/img/few_objects_composition/FO2.jpg"),
+          src: require("../../../../../assets/img/few_objects_composition/FO-2.jpg"),
         },
         {
           title: 'Few Objects Composition#3',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>3/5</p>`,
-          src: require("../../../../../assets/img/few_objects_composition/FO3.jpg"),
+          src: require("../../../../../assets/img/few_objects_composition/FO-3.jpg"),
         },
         {
           title: 'Few Objects Composition#4',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>4/5</p>`,
-          src: require("../../../../../assets/img/few_objects_composition/FO4.jpg"),
+          src: require("../../../../../assets/img/few_objects_composition/FO-4.jpg"),
         },
         {
           title: 'Few Objects Composition#5',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>110cm x 72cm</p>
             <br>
             <p>5/5</p>`,
-          src: require("../../../../../assets/img/few_objects_composition/FO5.jpg"),
+          src: require("../../../../../assets/img/few_objects_composition/FO-5.jpg"),
         },
       ],
       index: null
@@ -124,27 +123,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
-#modal-temp{
-    a{
-        &:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    }
-}
 
 p{
     font-size: 1.2rem;
 }
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover{
-      cursor: pointer;
-  }
-}
+
 .images-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -155,6 +140,7 @@ p{
 .cool-lightbox{
     top: 13rem;
 }
+
 .rawmod{
   margin: 0 2rem;
 }
@@ -165,10 +151,11 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .image {
   height: 200px;
   width: 150px;
-  margin: 5rem;
+  margin: 2rem;
     
   &:hover{
       cursor: pointer;
@@ -182,6 +169,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
   }
   .images-wrapper{
     justify-content: space-around;

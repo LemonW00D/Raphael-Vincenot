@@ -4,15 +4,15 @@
       <h4>EXHIBITIONS</h4>
       <br />
       <h6>2016</h6>
-      <p>Who Cares, Anne de Villepoix gallery, Paris, France.</p>
+      <p><span class="italic">Who Cares</span>, Anne de Villepoix gallery, Paris, France.</p>
       <br />
       <h6>2013</h6>
       <p>Trafic Gallery, Ivry-sur-Seine, France.</p>
       <p>
-        Tout va bien, Quai Est gallery, currated by Jean-Michel Marchais,
+        <span class="italic">Tout va bien</span>, Quai Est gallery, currated by Jean-Michel Marchais,
         Ivry-sur-Seine, France.
       </p>
-      <p>L’avenue, Cultural Department of Gentilly, France.</p>
+      <p><span class="italic">L’avenue</span>, Cultural Department of Gentilly, France.</p>
       <br />
       <h6>2012</h6>
       <p>
@@ -20,26 +20,26 @@
         France.
       </p>
       <p>
-        Les Figures du Sommeil, Vitry-sur-Seine town gallery, currated by
+        <span class="italic">Les Figures du Sommeil</span>, Vitry-sur-Seine town gallery, currated by
         Catherine Viollet, France.
       </p>
       <p>
-        Nominated for the Marin Prize, entered by Jan Voos, Arcueil, France.
+        Nominated for the <span class="italic">Marin Prize</span>, entered by Jan Voos, Arcueil, France.
       </p>
       <br />
       <h6>2011</h6>
       <p>
-        Young Heart, Trafic Gallery, Ivry-sur-Seine, currated by Jean Michel
+        <span class="italic">Young Heart</span>, Trafic Gallery, Ivry-sur-Seine, currated by Jean Michel
         Marchais, France.
       </p>
-      <p>Novembre à Vitry, Vitry-sur-Seine town gallery, France.</p>
+      <p><span class="italic">Novembre à Vitry</span>, Vitry-sur-Seine town gallery, France.</p>
       <br />
       <h6>2009</h6>
-      <p>Parcours Mixtes, Michel Journiac gallery, Paris, France.</p>
+      <p><span class="italic">Parcours Mixtes</span>, Michel Journiac gallery, Paris, France.</p>
       <br />
       <h6>2008</h6>
-      <p>Gedanken zur Revolution, Spinnerei, Leipzig, Germany.</p>
-      <p>Travaux en cours, Saint-Etienne Modern Art Museum, France.</p>
+      <p><span class="italic">Gedanken zur Revolution</span>, Spinnerei, Leipzig, Germany.</p>
+      <p><span class="italic">Travaux en cours</span>, Saint-Etienne Modern Art Museum, France.</p>
       <br />
     </div>
     <div class="portrait">
@@ -93,6 +93,10 @@ p {
     "resume portrait" auto
     "resume education" auto
     / 1fr 1fr;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .resume {
