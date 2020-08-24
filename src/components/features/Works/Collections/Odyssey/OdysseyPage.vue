@@ -109,6 +109,15 @@ export default {
 p{
     font-size: 1.2rem;
 }
+
+.images-wrapper {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+}
+
 .title-collection {
   text-align: center;
   margin: 4rem 0 2.5rem 0;
