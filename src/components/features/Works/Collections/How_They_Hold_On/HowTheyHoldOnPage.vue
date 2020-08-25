@@ -36,120 +36,108 @@ export default {
     setIndex(index) {
       this.index = index
     },
-    reloadPage(){
-      window.location.reload()
-    }
   },
   data: function () {
     return {
       items: [
         {
-          title: 'Big white hands',
+          title: 'Blue lightning',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>1/12</p>`,
-          src: require("../../../../../assets/img/hats/bigwhitehands.jpg"),
+            <p>1/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Bluelightning.jpg"),
         },
         {
-          title: 'Blue beanie',
+          title: 'By for fingers',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>2/12</p>`,
-          src: require("../../../../../assets/img/hats/bluebeanie.jpg"),
+            <p>2/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Byforfingers.jpg"),
         },
         {
-          title: 'White hat',
+          title: 'Dancing',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>3/12</p>`,
-          src: require("../../../../../assets/img/hats/whitehat.jpg"),
+            <p>3/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Dancing.jpg"),
         },
         {
-          title: 'Coal helmet',
+          title: 'Drinking potion',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>4/12</p>`,
-          src: require("../../../../../assets/img/hats/coalhelmet.jpg"),
+            <p>4/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Drinkingpotion.jpg"),
         },
         {
-          title: 'Colional hat',
+          title: 'On the grass',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>5/12</p>`,
-          src: require("../../../../../assets/img/hats/colionalhat.jpg"),
+            <p>5/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Onthegrass.jpg"),
         },
         {
-          title: 'Dog Pink hut',
+          title: 'Pink jacket',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>6/12</p>`,
-          src: require("../../../../../assets/img/hats/dogpinkhut.jpg"),
+            <p>6/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Pinkjacket.jpg"),
         },
         {
-          title: 'Driver',
+          title: 'Under the rain',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>7/12</p>`,
-          src: require("../../../../../assets/img/hats/driver.jpg"),
+            <p>7/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Undertherain.jpg"),
         },
         {
-          title: 'Old hat',
+          title: 'While hiding',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>8/12</p>`,
-          src: require("../../../../../assets/img/hats/oldhat.jpg"),
+            <p>8/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Whilehiding.jpg"),
         },
         {
-          title: 'Pink and blue',
+          title: 'While sinning',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>9/12</p>`,
-          src: require("../../../../../assets/img/hats/pinkandblue.jpg"),
+            <p>9/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Whilesinning.jpg"),
         },
         {
-          title: 'Tropical surveyor',
+          title: 'White glove',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>10/12</p>`,
-          src: require("../../../../../assets/img/hats/tropicalsurveyor.jpg"),
+            <p>10/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Whiteglove.jpg"),
         },
         {
-          title: 'Up and down',
+          title: 'White tissue',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>65cm x 50cm</p>
             <br>
-            <p>11/12</p>`,
-          src: require("../../../../../assets/img/hats/upanddown.jpg"),
-        },
-        {
-          title: 'White hand',
-          description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
-            <br>
-            <p>12/12</p>`,
-          src: require("../../../../../assets/img/hats/whitehand.jpg"),
+            <p>11/11</p>`,
+          src: require("../../../../../assets/img/how_they_hold_on/Whitetissue.jpg"),
         },
       ],
       index: null

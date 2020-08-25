@@ -482,30 +482,40 @@
 @media(min-width:767px) {
     .cool-lightbox .cool-lightbox-button.cool-lightbox-button--next {
         padding: 31px 6px 31px 26px;
-        right: 125px;
+        right: 40px;
     }
     .cool-lightbox .cool-lightbox-button.cool-lightbox-button--prev{
-        left: 125px;
+        left: 40px;
     }
 }
 
 @media(min-width:992px) {
     .cool-lightbox .cool-lightbox-button.cool-lightbox-button--next {
         padding: 31px 6px 31px 26px;
-        right: 225px;
+        right: 150px;
     }
     .cool-lightbox .cool-lightbox-button.cool-lightbox-button--prev{
-        left: 225px;
+        left: 150px;
     }
 }
 
 @media(min-width:1200px) {
     .cool-lightbox .cool-lightbox-button.cool-lightbox-button--next {
         padding: 31px 6px 31px 26px;
-        right: 350px;
+        right: 200px;
     }
     .cool-lightbox .cool-lightbox-button.cool-lightbox-button--prev{
-        left: 350px;
+        left: 200px;
+    }
+}
+
+@media(min-width:1500px) {
+    .cool-lightbox .cool-lightbox-button.cool-lightbox-button--next {
+        padding: 31px 6px 31px 26px;
+        right: 400px;
+    }
+    .cool-lightbox .cool-lightbox-button.cool-lightbox-button--prev{
+        left: 400px;
     }
 }
 

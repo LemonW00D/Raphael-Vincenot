@@ -44,7 +44,7 @@ export default {
     return {
       items: [
         {
-          title: 'Greeneye',
+          title: 'Green eye',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
@@ -62,7 +62,7 @@ export default {
           src: require("../../../../../assets/img/some_skeleton_variation/heap.jpg"),
         },
         {
-          title: 'Large Pink Straw',
+          title: 'Large pink straw',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
@@ -71,7 +71,7 @@ export default {
           src: require("../../../../../assets/img/some_skeleton_variation/largepinkstraw.jpg"),
         },
         {
-          title: 'Hip In The Miror',
+          title: 'Hip in the miror',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
@@ -80,7 +80,7 @@ export default {
           src: require("../../../../../assets/img/some_skeleton_variation/hipinthemiror.jpg"),
         },
         {
-          title: 'Look Behind',
+          title: 'Look behind',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
@@ -89,7 +89,7 @@ export default {
           src: require("../../../../../assets/img/some_skeleton_variation/lookbehind.jpg"),
         },
         {
-          title: 'Should Turn Left',
+          title: 'Should turn left',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
@@ -98,7 +98,7 @@ export default {
           src: require("../../../../../assets/img/some_skeleton_variation/shouldturnleft.jpg"),
         },
         {
-          title: 'Strange Vibration',
+          title: 'Strange vibration',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
@@ -107,13 +107,13 @@ export default {
           src: require("../../../../../assets/img/some_skeleton_variation/strangevibration.jpg"),
         },
         {
-          title: 'No title',
+          title: 'Some rest',
           description: `
             <p>Pastel sur papier</p>
             <p>70cm x 50cm</p>
             <br>
             <p>8/8</p>`,
-          src: require("../../../../../assets/img/some_skeleton_variation/no-title.jpg"),
+          src: require("../../../../../assets/img/some_skeleton_variation/somerest.jpg"),
         },
       ],
       index: null
@@ -156,7 +156,7 @@ p{
 }
 
 .images-wrapper {
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,7 +182,7 @@ p{
 .image {
   height: 200px;
   width: 150px;
-  margin: 2rem;
+  margin: 4rem;
     
   &:hover{
       cursor: pointer;

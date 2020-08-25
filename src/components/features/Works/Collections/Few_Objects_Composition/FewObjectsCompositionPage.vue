@@ -44,7 +44,7 @@ export default {
     return {
       items: [
         {
-          title: 'Few Objects Composition',
+          title: 'Few objects composition',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -53,7 +53,7 @@ export default {
           src: require("../../../../../assets/img/few_objects_composition/FO.jpg"),
         },
         {
-          title: 'Few Objects Composition#2',
+          title: 'Few objects composition#2',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -62,7 +62,7 @@ export default {
           src: require("../../../../../assets/img/few_objects_composition/FO-2.jpg"),
         },
         {
-          title: 'Few Objects Composition#3',
+          title: 'Few objects composition#3',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -71,7 +71,7 @@ export default {
           src: require("../../../../../assets/img/few_objects_composition/FO-3.jpg"),
         },
         {
-          title: 'Few Objects Composition#4',
+          title: 'Few objects composition#4',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -80,7 +80,7 @@ export default {
           src: require("../../../../../assets/img/few_objects_composition/FO-4.jpg"),
         },
         {
-          title: 'Few Objects Composition#5',
+          title: 'Few objects composition#5',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -129,7 +129,7 @@ p{
 }
 
 .images-wrapper {
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -155,7 +155,7 @@ p{
 .image {
   height: 200px;
   width: 150px;
-  margin: 2rem;
+  margin: 4rem;
     
   &:hover{
       cursor: pointer;

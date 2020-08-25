@@ -53,7 +53,7 @@ export default {
           src: require("../../../../../assets/img/reserve/cactus.jpg"),
         },
         {
-          title: 'Sun And Hand',
+          title: 'Sun and hand',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -62,7 +62,7 @@ export default {
           src: require("../../../../../assets/img/reserve/hand.jpg"),
         },
         {
-          title: 'Broken Hut',
+          title: 'Broken hut',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -80,7 +80,7 @@ export default {
           src: require("../../../../../assets/img/reserve/insect.jpg"),
         },
         {
-          title: 'Japonese T-Shirt',
+          title: 'Japonese t-shirt',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -89,7 +89,7 @@ export default {
           src: require("../../../../../assets/img/reserve/japonesetshirt.jpg"),
         },
         {
-          title: 'Two Huts',
+          title: 'Two huts',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -138,7 +138,7 @@ p{
 }
 
 .images-wrapper {
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,7 +164,7 @@ p{
 .image {
   height: 200px;
   width: 150px;
-  margin: 2rem;
+  margin: 4rem;
     
   &:hover{
       cursor: pointer;

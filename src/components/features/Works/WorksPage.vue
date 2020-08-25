@@ -106,7 +106,22 @@
           src="../../../assets/img/punch_and_crack/nocturnestreet.jpg"
           alt="Punch and crack"
         />
-        <h3>Punch and crack <b-badge>New</b-badge></h3>
+        <h3>Punch and crack</h3>
+      </div>
+    </router-link>
+
+    <!-- How they hold on -->
+    <router-link
+      to="/works/how-they-hold-on"
+      class="my-5 product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!-- ici mettre un on click pour aller sur la page de la collection -->
+        <img
+          src="../../../assets/img/how_they_hold_on/Bluelightning.jpg"
+          alt="How they hold on"
+        />
+        <h3>How they hold on <b-badge>New</b-badge></h3>
       </div>
     </router-link>
   </div>
@@ -129,8 +144,8 @@ export default {
   margin-top: 2rem;
   min-height: 200px;
   height: auto;
-  min-width: 270px;
-  max-width: 300px;
+  min-width: 250px;
+  max-width: 275px;
   padding: 0;
 }
 
@@ -139,6 +154,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 1rem;
 
   img {
     height: 150px;
@@ -147,7 +163,7 @@ export default {
 
   h3 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     font-weight: 500;
     letter-spacing: 1px;
   }

@@ -44,7 +44,7 @@ export default {
     return {
       items: [
         {
-          title: 'Blue Smoke',
+          title: 'Blue smoke',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -53,7 +53,7 @@ export default {
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Bluesmoke.jpg"),
         },
         {
-          title: 'Conversation And Comet',
+          title: 'Conversation and comet',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -62,7 +62,7 @@ export default {
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationandcomet.jpg"),
         },
         {
-          title: 'Conversation Blue Sky',
+          title: 'Conversation blue sky',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -71,7 +71,7 @@ export default {
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationbluesky.jpg"),
         },
         {
-          title: 'Conversation With Grey Hut',
+          title: 'Conversation with grey hut',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -80,7 +80,7 @@ export default {
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationwithgreyhut.jpg"),
         },
         {
-          title: 'Conversation With Violet Hut',
+          title: 'Conversation with violet hut',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -89,7 +89,7 @@ export default {
           src: require("../../../../../assets/img/the_last_day_of_maria_molle/Conversationwithviolethut.jpg"),
         },
         {
-          title: 'Free Lula',
+          title: 'Free lula',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 72cm</p>
@@ -147,7 +147,7 @@ p{
 }
 
 .images-wrapper {
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -173,7 +173,7 @@ p{
 .image {
   height: 200px;
   width: 150px;
-  margin: 2rem;
+  margin: 4rem;
     
   &:hover{
       cursor: pointer;

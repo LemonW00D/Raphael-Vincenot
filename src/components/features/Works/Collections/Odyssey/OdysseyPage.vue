@@ -53,7 +53,7 @@ export default {
           src: require("../../../../../assets/img/odyssey/Giants.jpg"),
         },
         {
-          title: 'Red Procession',
+          title: 'Red procession',
           description: `
             <p>Pastel sur papier</p>
             <p>3x   70cm x 50cm</p>
@@ -62,7 +62,7 @@ export default {
           src: require("../../../../../assets/img/odyssey/Redprocession.jpg"),
         },
         {
-          title: 'Trojan Trees',
+          title: 'Trojan trees',
           description: `
             <p>Pastel sur papier</p>
             <p>3x   70cm x 50cm</p>
@@ -143,7 +143,7 @@ p{
 .image {
   height: 200px;
   width: 250px;
-  margin: 2rem;
+  margin: 0 2rem;
     
   &:hover{
       cursor: pointer;

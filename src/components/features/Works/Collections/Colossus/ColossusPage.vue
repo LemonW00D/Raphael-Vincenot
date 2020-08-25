@@ -80,7 +80,7 @@ export default {
           src: require("../../../../../assets/img/colossus/Raining.jpg"),
         },
         {
-          title: 'Red Hat',
+          title: 'Red hat',
           description: `
             <p>Pastel sur papier</p>
             <p>110cm x 75cm</p>
@@ -156,7 +156,7 @@ p{
 }
 
 .images-wrapper {
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,7 +182,7 @@ p{
 .image {
   height: 200px;
   width: 150px;
-  margin: 2rem;
+  margin: 4rem;
     
   &:hover{
       cursor: pointer;

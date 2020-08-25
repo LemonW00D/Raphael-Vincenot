@@ -44,7 +44,7 @@ export default {
     return {
       items: [
         {
-          title: 'Nocturne Street',
+          title: 'Nocturne street',
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -65,13 +65,13 @@ export default {
           title: 'Watermelon',
           description: `
             <p>Pastel sur papier</p>
-            <p>115cm x 80cm</p>
+            <p>65cm x 50cm</p>
             <br>
             <p>3/8</p>`,
           src: require("../../../../../assets/img/punch_and_crack/watermelon.jpg"),
         },
         {
-          title: 'Blue Slap',
+          title: 'Blue slap',
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -89,7 +89,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/crack.jpg"),
         },
         {
-          title: 'Hat Slap',
+          title: 'Hat slap',
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -107,7 +107,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/rebound.jpg"),
         },
         {
-          title: 'Watermelonhat',
+          title: 'Watermelon hat',
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -156,7 +156,7 @@ p{
 }
 
 .images-wrapper {
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,7 +182,7 @@ p{
 .image {
   height: 200px;
   width: 150px;
-  margin: 2rem;
+  margin: 4rem;
     
   &:hover{
       cursor: pointer;
