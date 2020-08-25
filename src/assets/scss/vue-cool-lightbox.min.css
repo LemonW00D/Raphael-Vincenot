@@ -143,7 +143,7 @@
     width: 102px;
     height: 100vh;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     background-color: white;
     transition: none;
     scrollbar-width: thin;
@@ -187,7 +187,7 @@
 }
 
 .cool-lightbox .cool-lightbox-thumbs::-webkit-scrollbar-track:hover {
-    background: #666;
+    background: white;
 }
 
 .cool-lightbox .cool-lightbox-thumbs::-webkit-scrollbar-track:active {
@@ -220,7 +220,6 @@
     margin-right: 2px;
     margin-bottom: 2px;
     background-color: white;
-    overflow-y: scroll;
 }
 
 @media(min-width:767px) {
