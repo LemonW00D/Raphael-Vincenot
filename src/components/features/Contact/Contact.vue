@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row justify-content-center align-items-center p-5">
+  <div class="d-flex flex-row justify-content-center align-items-center px-5 pt-5">
     <contact-page></contact-page>
   </div>
 </template>

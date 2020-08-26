@@ -52,6 +52,9 @@
         tabindex="0"
       ></iframe>
     </div>
+    <footer>
+      <p>© 2020 - www.raphaelvincenot.com - Painter | Created by : <a href="https://www.arnaud-tessier.fr" class="dev">Arnaud Tessier<img class="dev-img" src="../../../assets/img/Arnaud-Tessier.png" alt="Arnaud Tessier"></a></p>
+    </footer>
   </div>
 </template>
 
@@ -132,6 +135,34 @@ a {
   }
 }
 
+footer {
+  position: sticky;
+  text-align: center;
+  margin: 0;
+  margin-top: 11rem;
+
+  p{
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .dev{
+    font-size: 1.1rem;
+
+    &:hover{
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+
+  .dev-img{
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    filter: brightness(150%) contrast(125%);
+  }
+}
+
 @include xs {
   .contact {
     flex-direction: column;
@@ -142,6 +173,9 @@ a {
 }
 
 @include md {
+  footer {
+    margin-top: 5rem;
+  }
   .studio {
     flex-direction: column;
     align-items: center;
