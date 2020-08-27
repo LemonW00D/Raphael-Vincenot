@@ -22,9 +22,5 @@ export default {
 .title-collection {
   text-align: center;
   margin-bottom: 5rem;
-  &:hover{
-      cursor: pointer;
-      text-decoration: underline;
-  }
 }
 </style>
