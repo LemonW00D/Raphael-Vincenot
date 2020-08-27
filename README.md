@@ -1,4 +1,6 @@
 # raphael_vincenot
+Artiste peintre à Paris.
+http://www.raphaelvincenot.com/
 
 ## Project setup
 ```
