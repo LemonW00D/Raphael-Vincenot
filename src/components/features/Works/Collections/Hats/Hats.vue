@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a @click="reloadPage" title="Back to collection"><h3 class="title-collection">Hats</h3></a>
+    <a title="Back to collection"><h3 class="title-collection">Hats</h3></a>
     <div class="d-flex flex-row justify-content-center align-items-center px-5">
       <hats-page></hats-page>
     </div>
@@ -14,11 +14,6 @@ import HatsPage from "./HatsPage";
 export default {
   components: {
     HatsPage,
-  },
-  methods: {
-    reloadPage(){
-      window.location.reload();
-    },
   },
 };
 </script>

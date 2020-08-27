@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a @click="reloadPage" title="Back to collection"><h3 class="title-collection">Punch And Crack</h3></a>
+    <a title="Back to collection"><h3 class="title-collection">Punch And Crack</h3></a>
     <div class="d-flex flex-row justify-content-center align-items-center px-5">
       <punch-and-crack-page></punch-and-crack-page>
     </div>
@@ -14,11 +14,6 @@ import PunchAndCrackPage from "./PunchAndCrackPage";
 export default {
   components: {
     PunchAndCrackPage,
-  },
-  methods: {
-    reloadPage(){
-      window.location.reload();
-    },
   },
 };
 </script>
