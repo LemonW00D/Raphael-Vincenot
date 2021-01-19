@@ -41,7 +41,7 @@ export default {
           nav.classList.remove("show");
         });
         const nav = document.querySelector(`#${binding.value}`);
-        el.addEventListener("click", event => {
+        el.addEventListener("click", (event) => {
           if (nav.classList.contains("show")) {
             nav.classList.remove("show");
           } else {
@@ -49,9 +49,9 @@ export default {
           }
           event.stopPropagation();
         });
-      }
-    }
-  }
+      },
+    },
+  },
 };
 </script>
 

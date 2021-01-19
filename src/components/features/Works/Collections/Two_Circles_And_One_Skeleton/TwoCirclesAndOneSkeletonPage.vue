@@ -46,103 +46,103 @@ export default {
     return {
       items: [
         {
-          title: "Blue lightning",
+          title: "Birdcemetery",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>1/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Bluelightning.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"),
         },
         {
-          title: "By for fingers",
+          title: "Boxing gloves",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>2/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Byforfingers.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Boxing_gloves.jpg"),
         },
         {
-          title: "Dancing",
+          title: "Chinese shadow",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>3/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Dancing.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Chinese_shadow.jpg"),
         },
         {
-          title: "Drinking potion",
+          title: "Feets and hands",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>4/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Drinkingpotion.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Feets_and_hands.jpg"),
         },
         {
-          title: "On the grass",
+          title: "Mushrommfinder",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>5/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Onthegrass.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Mushrommfinder.jpg"),
         },
         {
-          title: "Pink jacket",
+          title: "One skeleton",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>6/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Pinkjacket.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/One_skeleton.jpg"),
         },
         {
-          title: "Under the rain",
+          title: "Red hut",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>7/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Undertherain.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Red_hut.jpg"),
         },
         {
-          title: "While hiding",
+          title: "Red_mushromm",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>8/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Whilehiding.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Red_mushromm.jpg"),
         },
         {
-          title: "While sinning",
+          title: "Spell on blue",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>9/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Whilesinning.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Spell_on_blue.jpg"),
         },
         {
-          title: "White glove",
+          title: "Ticket for two",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>10/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Whiteglove.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Ticket_for_two.jpg"),
         },
         {
-          title: "White tissue",
+          title: "Two circles",
           description: `
             <p>Pastel sur papier</p>
-            <p>65cm x 50cm</p>
+            <p>115cm x 75cm</p>
             <br>
             <p>11/11</p>`,
-          src: require("../../../../../assets/img/how_they_hold_on/Whitetissue.jpg"),
+          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Two_circles.jpg"),
         },
       ],
       index: null,

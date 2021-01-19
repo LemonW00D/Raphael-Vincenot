@@ -12,8 +12,8 @@ import WorksPage from "./WorksPage";
 
 export default {
   components: {
-    WorksPage
-  }
+    WorksPage,
+  },
 };
 </script>
 

@@ -1,20 +1,20 @@
 <template>
   <div>
     <a title="Back to collection"
-      ><h3 class="title-collection">How they hold on</h3></a
+      ><h3 class="title-collection">Two circles and one skeleton</h3></a
     >
     <div class="d-flex flex-row justify-content-center align-items-center px-5">
-      <how-they-hold-on-page></how-they-hold-on-page>
+      <two-circles-and-one-skeleton-page></two-circles-and-one-skeleton-page>
     </div>
   </div>
 </template>
 
 <script>
-import HowTheyHoldOnPage from "./HowTheyHoldOnPage";
+import TwoCirclesAndOneSkeletonPage from "./TwoCirclesAndOneSkeletonPage";
 
 export default {
   components: {
-    HowTheyHoldOnPage,
+    TwoCirclesAndOneSkeletonPage,
   },
 };
 </script>

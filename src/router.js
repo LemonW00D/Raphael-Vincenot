@@ -15,14 +15,12 @@ import Reserve from "./components/features/Works/Collections/Reserve/Reserve";
 import SomeSkeletonVariation from "./components/features/Works/Collections/Some_Skeleton_Variation/SomeSkeletonVariation";
 import PunchAndCrack from "./components/features/Works/Collections/Punch_And_Crack/PunchAndCrack";
 import HowTheyHoldOn from "./components/features/Works/Collections/How_They_Hold_On/HowTheyHoldOn";
-
-
-
+import TwoCirclesAndOneSkeleton from "./components/features/Works/Collections/Two_Circles_And_One_Skeleton/TwoCirclesAndOneSkeleton";
 
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   routes: [
     { path: "", redirect: "/home" },
     { path: "/home", component: Home },
@@ -31,15 +29,27 @@ const router = new VueRouter({
     { path: "/works/hats", component: Hats },
     { path: "/works/odyssey", component: Odyssey },
     { path: "/works/maria-molle", component: MariaMolle },
-    { path: "/works/few-objects-composition", component: FewObjectsComposition },
+    {
+      path: "/works/few-objects-composition",
+      component: FewObjectsComposition,
+    },
     { path: "/works/reserve", component: Reserve },
-    { path: "/works/some-skeleton-variation", component: SomeSkeletonVariation },
+    {
+      path: "/works/some-skeleton-variation",
+      component: SomeSkeletonVariation,
+    },
     { path: "/works/punch-and-crack", component: PunchAndCrack },
     { path: "/works/how-they-hold-on", component: HowTheyHoldOn },
+    {
+      path: "/works/two-circles-and-one-skeleton",
+      component: TwoCirclesAndOneSkeleton,
+    },
     { path: "/about", component: About },
     { path: "/contact", component: Contact },
-    { path: "**", redirect: "/home" }
-  ]
+    { path: "**", redirect: "/home" },
+    { path: "*", redirect: "/home" },
+    { path: "", redirect: "/home" },
+  ],
 });
 
 export default router;
