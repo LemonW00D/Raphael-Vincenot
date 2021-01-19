@@ -181,6 +181,11 @@ export default {
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 1px;
+    &:hover {
+      filter: grayscale(1);
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 
   &:hover {
