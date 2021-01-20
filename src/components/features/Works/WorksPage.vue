@@ -139,6 +139,81 @@
         <h3>Two circles and one skeleton <b-badge>New</b-badge></h3>
       </div>
     </router-link>
+
+    <!-- So they dance -->
+    <router-link
+      to="/works/so-they-dance"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>So they dance <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+
+    <!-- Three doors -->
+    <router-link
+      to="/works/three-doors"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>Three doors <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+
+    <!-- La chute des idoles -->
+    <router-link
+      to="/works/la-chute-des-idoles"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>La chute des idoles <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+
+    <!-- A plus ou moins un mètre de l'eau -->
+    <router-link
+      to="/works/a-plus-ou-moins-un-metre-de-leau"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>À plus ou moins un mètre de l'eau <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+
+    <!-- The grapes of wrath -->
+    <router-link
+      to="/works/the-grapes-of-wrath"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>The grapes of wrath <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
   </div>
 </template>
 
@@ -160,7 +235,7 @@ export default {
   min-height: 100px;
   height: auto;
   min-width: 225px;
-  max-width: 250px;
+  max-width: 275px;
   padding: 0;
 }
 

@@ -16,6 +16,11 @@ import SomeSkeletonVariation from "./components/features/Works/Collections/Some_
 import PunchAndCrack from "./components/features/Works/Collections/Punch_And_Crack/PunchAndCrack";
 import HowTheyHoldOn from "./components/features/Works/Collections/How_They_Hold_On/HowTheyHoldOn";
 import TwoCirclesAndOneSkeleton from "./components/features/Works/Collections/Two_Circles_And_One_Skeleton/TwoCirclesAndOneSkeleton";
+import SoTheyDance from "./components/features/Works/Collections/So_They_Dance/SoTheyDance";
+import ThreeDoors from "./components/features/Works/Collections/Three_Doors/ThreeDoors";
+import LaChuteDesIdoles from "./components/features/Works/Collections/La_Chute_Des_Idoles/LaChuteDesIdoles";
+import APlusOuMoinsUnMetreDeLeau from "./components/features/Works/Collections/A_Plus_Ou_Moins_Un_Metre_De_Leau/APlusOuMoinsUnMetreDeLeau";
+import TheGrapesOfWrath from "./components/features/Works/Collections/The_Grapes_Of_Wrath/TheGrapesOfWrath";
 
 Vue.use(VueRouter);
 
@@ -43,6 +48,26 @@ const router = new VueRouter({
     {
       path: "/works/two-circles-and-one-skeleton",
       component: TwoCirclesAndOneSkeleton,
+    },
+    {
+      path: "/works/so-they-dance",
+      component: SoTheyDance,
+    },
+    {
+      path: "/works/three-doors",
+      component: ThreeDoors,
+    },
+    {
+      path: "/works/la-chute-des-idoles",
+      component: LaChuteDesIdoles,
+    },
+    {
+      path: "/works/a-plus-ou-moins-un-metre-de-leau",
+      component: APlusOuMoinsUnMetreDeLeau,
+    },
+    {
+      path: "/works/the-grapes-of-wrath",
+      component: TheGrapesOfWrath,
     },
     { path: "/about", component: About },
     { path: "/contact", component: Contact },

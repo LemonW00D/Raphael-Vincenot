@@ -41,108 +41,93 @@ export default {
     setIndex(index) {
       this.index = index;
     },
+    reloadPage() {
+      window.location.reload();
+    },
   },
   data: function() {
     return {
       items: [
         {
-          title: "Birdcemetery",
+          title: "Blue fingers",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>1/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"),
+            <p>1/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Bluefingers.jpg"),
         },
         {
-          title: "Boxing gloves",
+          title: "Green eyes red hands",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>2/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Boxing_gloves.jpg"),
+            <p>2/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Greeneyesredhands.jpg"),
         },
         {
-          title: "Chinese shadow",
+          title: "Pink heads",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>3/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Chinese_shadow.jpg"),
+            <p>3/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Pinkheads.jpg"),
         },
         {
-          title: "Feets and hands",
+          title: "The laugh",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>4/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Feets_and_hands.jpg"),
+            <p>4/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Thelaugh.jpg"),
         },
         {
-          title: "Mushrommfinder",
+          title: "Two blue boots",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>5/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Mushrommfinder.jpg"),
+            <p>5/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Twoblueboots.jpg"),
         },
         {
-          title: "One skeleton",
+          title: "Two pink boots",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>6/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/One_skeleton.jpg"),
+            <p>6/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Twopinkboots.jpg"),
         },
         {
-          title: "Red hut",
+          title: "White clouds",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>7/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Red_hut.jpg"),
+            <p>7/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Whiteclouds.jpg"),
         },
         {
-          title: "Red mushromm",
+          title: "White gloves",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>8/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Red_mushromm.jpg"),
+            <p>8/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Whitegloves.jpg"),
         },
         {
-          title: "Spell on blue",
+          title: "Yellows hats",
           description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
+            <p>Pastel gras sur papier</p>
+            <p>3x   50cm x 65cm</p>
             <br>
-            <p>9/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Spell_on_blue.jpg"),
-        },
-        {
-          title: "Ticket for two",
-          description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
-            <br>
-            <p>10/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Ticket_for_two.jpg"),
-        },
-        {
-          title: "Two circles",
-          description: `
-            <p>Pastel sur papier</p>
-            <p>115cm x 75cm</p>
-            <br>
-            <p>11/11</p>`,
-          src: require("../../../../../assets/img/two_circles_and_one_skeleton/Two_circles.jpg"),
+            <p>9/9</p>`,
+          src: require("../../../../../assets/img/so_they_dance/Yellowshats.jpg"),
         },
       ],
       index: null,
@@ -189,14 +174,21 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 200px;
+  margin: auto;
   width: auto;
+}
+
+.title-collection {
+  text-align: center;
+  margin: 4rem 0 2.5rem 0;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .cool-lightbox {
   top: 13rem;
 }
-
 .rawmod {
   margin: 0 2rem;
 }
@@ -210,8 +202,8 @@ p {
 
 .image {
   height: 200px;
-  width: 150px;
-  margin: 4rem;
+  width: 250px;
+  margin: 0 2rem;
 
   &:hover {
     cursor: pointer;
@@ -229,7 +221,6 @@ p {
   }
   .images-wrapper {
     justify-content: space-around;
-    margin-right: 4rem;
   }
 }
 </style>
