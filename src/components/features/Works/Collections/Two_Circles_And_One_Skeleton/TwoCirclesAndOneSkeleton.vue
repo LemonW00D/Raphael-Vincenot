@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a title="Back to collection"
-      ><h3 class="title-collection">Two circles and one skeleton</h3></a
-    >
+    <router-link to="/works" data-title="">
+      <h3 class="title-collection">Two circles and one skeleton</h3>
+    </router-link>
     <div class="d-flex flex-row justify-content-center align-items-center px-5">
       <two-circles-and-one-skeleton-page></two-circles-and-one-skeleton-page>
     </div>
@@ -23,5 +23,6 @@ export default {
 .title-collection {
   text-align: center;
   margin-bottom: 5rem;
+  cursor: pointer;
 }
 </style>

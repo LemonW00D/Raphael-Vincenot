@@ -1,0 +1,49 @@
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.25s;
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: "Back to Works";
+  position: absolute;
+  left: 48%;
+  margin: auto;
+  z-index: 99999;
+  visibility: hidden;
+  /* optional */
+  white-space: nowrap;
+  /* stilization */
+  background-color: #333;
+  color: #fff;
+  font-size: 10px;
+  padding: 1px 5px 2px 5px;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  margin-top: 0.75rem;
+}
+
+[data-title] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  [data-title]:after {
+    left: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  [data-title]:after {
+    left: 42%;
+  }
+}
+@media screen and (max-width: 576px) {
+  [data-title]:after {
+    left: 37%;
+  }
+}

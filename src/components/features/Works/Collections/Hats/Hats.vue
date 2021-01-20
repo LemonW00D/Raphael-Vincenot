@@ -1,6 +1,8 @@
 <template>
   <div>
-    <a title="Back to collection"><h3 class="title-collection">Hats</h3></a>
+    <router-link to="/works" data-title="">
+      <h3 class="title-collection">Hats</h3>
+    </router-link>
     <div class="d-flex flex-row justify-content-center align-items-center px-5">
       <hats-page></hats-page>
     </div>
@@ -9,7 +11,6 @@
 
 <script>
 import HatsPage from "./HatsPage";
-
 
 export default {
   components: {
@@ -22,11 +23,12 @@ export default {
 .title-collection {
   text-align: center;
   margin-bottom: 5rem;
+  cursor: pointer;
 }
 
-@media(max-width:767px) {
-    .title-collection  {
-        margin-bottom: 5rem;
-    }
+@media (max-width: 767px) {
+  .title-collection {
+    margin-bottom: 5rem;
+  }
 }
 </style>

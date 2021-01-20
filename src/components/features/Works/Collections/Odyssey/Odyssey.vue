@@ -1,6 +1,8 @@
 <template>
   <div>
-    <a title="Back to collection"><h3 class="title-collection">Odyssey</h3></a>
+    <router-link to="/works" data-title="">
+      <h3 class="title-collection">Odyssey</h3>
+    </router-link>
     <div class="d-flex flex-row justify-content-center align-items-center px-5">
       <odyssey-page></odyssey-page>
     </div>
@@ -9,7 +11,6 @@
 
 <script>
 import OdysseyPage from "./OdysseyPage";
-
 
 export default {
   components: {
@@ -22,5 +23,6 @@ export default {
 .title-collection {
   text-align: center;
   margin-bottom: 5rem;
+  cursor: pointer;
 }
 </style>
