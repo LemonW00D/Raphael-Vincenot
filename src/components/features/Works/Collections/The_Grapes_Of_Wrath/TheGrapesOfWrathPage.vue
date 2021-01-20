@@ -127,7 +127,7 @@ export default {
             <p>120cm x 70cm</p>
             <br>
             <p>9/9</p>`,
-          src: require("../../../../../assets/img/the_grapes_of_wrath/Workhorse.jpg"),
+          src: require("../../../../../assets/img/the_grapes_of_wrath/Workhorse.png"),
         },
       ],
       index: null,
