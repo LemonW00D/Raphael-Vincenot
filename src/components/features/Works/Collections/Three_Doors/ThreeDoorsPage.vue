@@ -194,6 +194,7 @@ p {
   }
   .images-wrapper {
     justify-content: space-around;
+    margin-right: 4rem;
   }
 }
 </style>
