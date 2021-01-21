@@ -1,7 +1,7 @@
 <template>
   <div id="modal-temp">
     <div
-      class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod"
+      class="container d-flex flex-row flex-wrap justify-content-around align-items-center rawmod"
     >
       <CoolLightBox
         class="image-collection"
@@ -31,11 +31,20 @@
 <script>
 import CoolLightBox from "vue-cool-lightbox";
 import "../../../../../assets/scss/vue-cool-lightbox.min.css";
+import $ from "jquery";
 
 export default {
   name: "modal-temp",
   components: {
     CoolLightBox,
+  },
+  mounted: function() {
+    $("#modal-temp > div.container > div.images-wrapper > div.image").click(
+      function() {
+        $("body").scrollTop(0);
+        $("body").css("top", "0px");
+      }
+    );
   },
   methods: {
     setIndex(index) {
@@ -140,14 +149,7 @@ p {
   flex-wrap: wrap;
   margin: auto;
   width: auto;
-}
-
-.title-collection {
-  text-align: center;
-  margin: 4rem 0 2.5rem 0;
-  &:hover {
-    cursor: pointer;
-  }
+  height: 200px;
 }
 
 .cool-lightbox {

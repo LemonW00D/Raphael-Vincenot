@@ -31,11 +31,20 @@
 <script>
 import CoolLightBox from "vue-cool-lightbox";
 import "../../../../../assets/scss/vue-cool-lightbox.min.css";
+import $ from "jquery";
 
 export default {
   name: "modal-temp",
   components: {
     CoolLightBox,
+  },
+  mounted: function() {
+    $("#modal-temp > div.container > div.images-wrapper > div.image").click(
+      function() {
+        $("body").scrollTop(0);
+        $("body").css("top", "0px");
+      }
+    );
   },
   methods: {
     setIndex(index) {

@@ -214,6 +214,51 @@
         <h3>The grapes of wrath <b-badge>New</b-badge></h3>
       </div>
     </router-link>
+
+    <!-- Rooms -->
+    <router-link
+      to="/works/rooms"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>Rooms <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+
+    <!-- How to kill -->
+    <router-link
+      to="/works/how-to-kill"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>How to kill <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
+
+    <!-- Astrolab -->
+    <router-link
+      to="/works/astrolab"
+      class=" product-container d-flex flex-column justify-content-center align-items-center "
+    >
+      <div class="image-collection">
+        <!--
+        <img
+          src="../../../assets/img/two_circles_and_one_skeleton/Birdcemetery.jpg"
+          alt="How they hold on"
+        /> -->
+        <h3>Astrolab <b-badge>New</b-badge></h3>
+      </div>
+    </router-link>
   </div>
 </template>
 

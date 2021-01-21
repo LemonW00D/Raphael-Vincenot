@@ -11,10 +11,19 @@
 
 <script>
 import OdysseyPage from "./OdysseyPage";
+import $ from "jquery";
 
 export default {
   components: {
     OdysseyPage,
+  },
+  mounted: function() {
+    $(".title-collection").click(function() {
+      $("body").scrollTop();
+      $("body").css("top", "0px");
+      $("body").css("position", "initial");
+      $("body").css("overflow", "initial");
+    });
   },
 };
 </script>

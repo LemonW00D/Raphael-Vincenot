@@ -120,4 +120,22 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
    </url>
+   <url>
+      <loc>https://www.raphaelvincenot.com/#/works/rooms</loc>
+      <lastmod>2021-01-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>https://www.raphaelvincenot.com/#/works/how-to-kill</loc>
+      <lastmod>2021-01-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>https://www.raphaelvincenot.com/#/works/astrolab</loc>
+      <lastmod>2021-01-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+   </url>
    </urlset>

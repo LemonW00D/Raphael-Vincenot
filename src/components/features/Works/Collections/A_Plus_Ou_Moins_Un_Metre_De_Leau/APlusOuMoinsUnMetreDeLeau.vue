@@ -11,10 +11,19 @@
 
 <script>
 import APlusOuMoinsUnMetreDeLeauPage from "./APlusOuMoinsUnMetreDeLeauPage";
+import $ from "jquery";
 
 export default {
   components: {
     APlusOuMoinsUnMetreDeLeauPage,
+  },
+  mounted: function() {
+    $(".title-collection").click(function() {
+      $("body").scrollTop();
+      $("body").css("top", "0px");
+      $("body").css("position", "initial");
+      $("body").css("overflow", "initial");
+    });
   },
 };
 </script>

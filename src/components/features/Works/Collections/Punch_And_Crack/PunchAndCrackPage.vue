@@ -1,50 +1,64 @@
 <template>
-    <div id="modal-temp">
-        <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod">
-                <CoolLightBox class="image-collection"
-                    :items="items"
-                    :index="index"
-                    @close="index = null">
-                </CoolLightBox>
-                <div class="images-wrapper">
-                <div
-                    class="image"
-                    v-for="(image, imageIndex) in items"
-                    :key="imageIndex"
-                    @click="index = imageIndex"
-                    :style="{ backgroundImage: 'url(' + image.src + ')', backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }"
-                >
-                
-                </div>
-                </div>
-                </div>
-            
-        
-    </div>    
+  <div id="modal-temp">
+    <div
+      class="container d-flex flex-row flex-wrap justify-content-between align-items-center rawmod"
+    >
+      <CoolLightBox
+        class="image-collection"
+        :items="items"
+        :index="index"
+        @close="index = null"
+      >
+      </CoolLightBox>
+      <div class="images-wrapper">
+        <div
+          class="image"
+          v-for="(image, imageIndex) in items"
+          :key="imageIndex"
+          @click="index = imageIndex"
+          :style="{
+            backgroundImage: 'url(' + image.src + ')',
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+          }"
+        ></div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import CoolLightBox from 'vue-cool-lightbox';
-import '../../../../../assets/scss/vue-cool-lightbox.min.css';
+import CoolLightBox from "vue-cool-lightbox";
+import "../../../../../assets/scss/vue-cool-lightbox.min.css";
+import $ from "jquery";
 
 export default {
   name: "modal-temp",
   components: {
     CoolLightBox,
   },
+  mounted: function() {
+    $("#modal-temp > div.container > div.images-wrapper > div.image").click(
+      function() {
+        $("body").scrollTop(0);
+        $("body").css("top", "0px");
+      }
+    );
+  },
   methods: {
     setIndex(index) {
-      this.index = index
+      this.index = index;
     },
-    reloadPage(){
-      window.location.reload()
-    }
+    reloadPage() {
+      window.location.reload();
+    },
   },
-  data: function () {
+  data: function() {
     return {
       items: [
         {
-          title: 'Nocturne street',
+          title: "Nocturne street",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -53,7 +67,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/nocturnestreet.jpg"),
         },
         {
-          title: 'Punch',
+          title: "Punch",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -62,7 +76,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/punch.jpg"),
         },
         {
-          title: 'Watermelon',
+          title: "Watermelon",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -71,7 +85,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/watermelon.jpg"),
         },
         {
-          title: 'Blue slap',
+          title: "Blue slap",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -80,7 +94,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/blueslap.jpg"),
         },
         {
-          title: 'Crack',
+          title: "Crack",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -89,7 +103,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/crack.jpg"),
         },
         {
-          title: 'Hat slap',
+          title: "Hat slap",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -98,7 +112,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/hatslap.jpg"),
         },
         {
-          title: 'Rebound',
+          title: "Rebound",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -107,7 +121,7 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/rebound.jpg"),
         },
         {
-          title: 'Watermelon hat',
+          title: "Watermelon hat",
           description: `
             <p>Pastel sur papier</p>
             <p>65cm x 50cm</p>
@@ -116,13 +130,13 @@ export default {
           src: require("../../../../../assets/img/punch_and_crack/watermelonhat.jpg"),
         },
       ],
-      index: null
+      index: null,
     };
   },
   props: {
     disableZoom: {
-        type: Boolean,
-        default: true,
+      type: Boolean,
+      default: true,
     },
     loop: {
       type: Boolean,
@@ -134,25 +148,25 @@ export default {
     },
     overlayColor: {
       type: String,
-      default: 'rgb(0, 0, 0)'
+      default: "rgb(0, 0, 0)",
     },
     slideshowColorBar: {
-        type: String,
-        default: '#fa4242'
+      type: String,
+      default: "#fa4242",
     },
     closeOnClickOutsideMobile: {
-        type: Boolean,
-        default: true,
+      type: Boolean,
+      default: true,
     },
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 @import "../../../../../../src/assets/scss/style.main.scss";
 
-p{
-    font-size: 1.2rem;
+p {
+  font-size: 1.2rem;
 }
 
 .images-wrapper {
@@ -164,11 +178,11 @@ p{
   width: auto;
 }
 
-.cool-lightbox{
-    top: 13rem;
+.cool-lightbox {
+  top: 13rem;
 }
 
-.rawmod{
+.rawmod {
   margin: 0 2rem;
 }
 
@@ -183,10 +197,10 @@ p{
   height: 200px;
   width: 150px;
   margin: 4rem;
-    
-  &:hover{
-      cursor: pointer;
-      filter: grayscale(1);
+
+  &:hover {
+    cursor: pointer;
+    filter: grayscale(1);
   }
 }
 
@@ -198,7 +212,7 @@ p{
     align-items: center;
     margin: 5rem;
   }
-  .images-wrapper{
+  .images-wrapper {
     justify-content: space-around;
     margin-right: 4rem;
   }

@@ -11,10 +11,19 @@
 
 <script>
 import MariaMollePage from "./MariaMollePage";
+import $ from "jquery";
 
 export default {
   components: {
     MariaMollePage,
+  },
+  mounted: function() {
+    $(".title-collection").click(function() {
+      $("body").scrollTop();
+      $("body").css("top", "0px");
+      $("body").css("position", "initial");
+      $("body").css("overflow", "initial");
+    });
   },
 };
 </script>

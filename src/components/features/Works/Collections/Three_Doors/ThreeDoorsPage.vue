@@ -31,11 +31,20 @@
 <script>
 import CoolLightBox from "vue-cool-lightbox";
 import "../../../../../assets/scss/vue-cool-lightbox.min.css";
+import $ from "jquery";
 
 export default {
   name: "modal-temp",
   components: {
     CoolLightBox,
+  },
+  mounted: function() {
+    $("#modal-temp > div.container > div.images-wrapper > div.image").click(
+      function() {
+        $("body").scrollTop(0);
+        $("body").css("top", "0px");
+      }
+    );
   },
   methods: {
     setIndex(index) {
@@ -88,7 +97,7 @@ export default {
           title: "Geographers",
           description: `
             <p>Pastel gras sur papier marouflé</p>
-            <p>3x   150cm x 95cm</p>
+            <p>3x   150cm x 75cm</p>
             <br>
             <p>5/6</p>`,
           src: require("../../../../../assets/img/three_doors/Geographers.jpg"),

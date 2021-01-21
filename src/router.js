@@ -21,6 +21,9 @@ import ThreeDoors from "./components/features/Works/Collections/Three_Doors/Thre
 import LaChuteDesIdoles from "./components/features/Works/Collections/La_Chute_Des_Idoles/LaChuteDesIdoles";
 import APlusOuMoinsUnMetreDeLeau from "./components/features/Works/Collections/A_Plus_Ou_Moins_Un_Metre_De_Leau/APlusOuMoinsUnMetreDeLeau";
 import TheGrapesOfWrath from "./components/features/Works/Collections/The_Grapes_Of_Wrath/TheGrapesOfWrath";
+import Rooms from "./components/features/Works/Collections/Rooms/Rooms";
+import HowToKill from "./components/features/Works/Collections/How_To_Kill/HowToKill";
+import Astrolab from "./components/features/Works/Collections/Astrolab/Astrolab";
 
 Vue.use(VueRouter);
 
@@ -68,6 +71,18 @@ const router = new VueRouter({
     {
       path: "/works/the-grapes-of-wrath",
       component: TheGrapesOfWrath,
+    },
+    {
+      path: "/works/rooms",
+      component: Rooms,
+    },
+    {
+      path: "/works/how-to-kill",
+      component: HowToKill,
+    },
+    {
+      path: "/works/astrolab",
+      component: Astrolab,
     },
     { path: "/about", component: About },
     { path: "/contact", component: Contact },

@@ -11,10 +11,19 @@
 
 <script>
 import HowTheyHoldOnPage from "./HowTheyHoldOnPage";
+import $ from "jquery";
 
 export default {
   components: {
     HowTheyHoldOnPage,
+  },
+  mounted: function() {
+    $(".title-collection").click(function() {
+      $("body").scrollTop();
+      $("body").css("top", "0px");
+      $("body").css("position", "initial");
+      $("body").css("overflow", "initial");
+    });
   },
 };
 </script>
