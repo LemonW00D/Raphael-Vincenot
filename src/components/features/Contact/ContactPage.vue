@@ -14,10 +14,16 @@
       <div class="d-flex flex-column item">
         <h3><i class="fas fa-user-plus mr-2"></i> Networks</h3>
         <div class="d-flex flex-raw justify-content-center">
-          <a href="https://www.facebook.com/raphael.vincenot" target="_blank" rel="external nofollow noreferrer noopener"
+          <a
+            href="https://www.facebook.com/raphael.vincenot"
+            target="_blank"
+            rel="external nofollow noreferrer noopener"
             ><i class="fab fa-facebook mx-3"></i
           ></a>
-          <a href="https://www.instagram.com/raphael_vincenot/" target="_blank" rel="external nofollow noreferrer noopener"
+          <a
+            href="https://www.instagram.com/raphael_vincenot/"
+            target="_blank"
+            rel="external nofollow noreferrer noopener"
             ><i class="fab fa-instagram-square mx-3"></i
           ></a>
         </div>
@@ -53,7 +59,15 @@
       ></iframe>
     </div>
     <footer>
-      <p>© 2020 - www.raphaelvincenot.com - Painter | Created by : <a href="https://www.arnaud-tessier.fr" class="dev">Arnaud Tessier<img class="dev-img" src="../../../assets/img/Arnaud-Tessier.png" alt="Arnaud Tessier"></a></p>
+      <p>
+        © 2020 - www.raphaelvincenot.com - Painter | Created by :
+        <a href="https://www.arnaud-tessier.fr" target="_blank" class="dev"
+          >Arnaud Tessier<img
+            class="dev-img"
+            src="../../../assets/img/Arnaud-Tessier.png"
+            alt="Arnaud Tessier"
+        /></a>
+      </p>
     </footer>
   </div>
 </template>
@@ -141,21 +155,21 @@ footer {
   margin: 0;
   margin-top: 11rem;
 
-  p{
+  p {
     margin: 0;
     font-size: 1.1rem;
   }
 
-  .dev{
+  .dev {
     font-size: 1.1rem;
 
-    &:hover{
+    &:hover {
       text-decoration: underline;
       font-weight: bold;
     }
   }
 
-  .dev-img{
+  .dev-img {
     height: 20px;
     border-radius: 50%;
     margin-left: 0.5rem;

@@ -222,9 +222,6 @@ p {
   }
 }
 
-.cool-lightbox {
-  top: 13rem;
-}
 .rawmod {
   margin: 0 2rem;
 }

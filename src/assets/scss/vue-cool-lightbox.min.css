@@ -368,7 +368,19 @@
 }
 
 .cool-lightbox.cool-lightbox--is-zooming .cool-lightbox__slide img {
-  cursor: zoom-out;
+  cursor: grab;
+}
+
+.cool-lightbox.cool-lightbox--is-zooming .cool-lightbox__slide img:active {
+  cursor: grabbing;
+}
+
+.cool-lightbox {
+  top: 13rem;
+}
+
+.cool-lightbox--is-zooming {
+  top: 0rem !important;
 }
 
 .cool-lightbox.cool-lightbox--is-zooming .cool-lightbox-caption {
