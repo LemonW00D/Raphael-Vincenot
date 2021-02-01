@@ -712,7 +712,7 @@
     height: 100%;
   }
   .cool-lightbox .cool-lightbox__inner {
-    padding: 60px 0;
+    padding: 30px 0 0 0;
   }
 }
 
