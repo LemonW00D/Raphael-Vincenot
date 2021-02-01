@@ -320,7 +320,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 60px 0;
+  padding: 0;
   overflow: hidden;
   background-color: white;
   transition: none;
@@ -533,9 +533,11 @@
 
 @media (max-width: 767px) {
   .cool-lightbox .cool-lightbox-button.cool-lightbox-button--next {
+    top: 200px;
     right: 0px;
   }
   .cool-lightbox .cool-lightbox-button.cool-lightbox-button--prev {
+    top: 200px;
     left: 0px;
   }
 }
