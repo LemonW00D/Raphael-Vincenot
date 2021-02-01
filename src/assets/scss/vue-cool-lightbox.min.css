@@ -533,11 +533,9 @@
 
 @media (max-width: 767px) {
   .cool-lightbox .cool-lightbox-button.cool-lightbox-button--next {
-    top: 200px;
     right: 0px;
   }
   .cool-lightbox .cool-lightbox-button.cool-lightbox-button--prev {
-    top: 200px;
     left: 0px;
   }
 }
@@ -708,6 +706,9 @@
     min-width: 75%;
     max-width: 100%;
     height: auto;
+  }
+  .cool-lightbox .cool-lightbox__inner {
+    padding: 60px 0;
   }
 }
 
