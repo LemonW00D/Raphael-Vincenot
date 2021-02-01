@@ -13,10 +13,13 @@ import TheHeader from "./components/TheHeader";
 export default {
   name: "App",
   components: {
-    TheHeader
-  }
+    TheHeader,
+  },
 };
 </script>
 
 <style>
+#app {
+  min-height: 100vh;
+}
 </style>
