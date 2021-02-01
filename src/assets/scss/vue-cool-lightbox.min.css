@@ -701,6 +701,9 @@
     max-height: 461px;
     height: auto;
     min-height: 156px;
+    min-width: 75%;
+    width: auto;
+    max-width: 100%;
   }
   .cool-lightbox .cool-lightbox__slide .cool-lightbox__slide__img {
     min-width: 75%;
